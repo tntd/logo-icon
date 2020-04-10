@@ -1,5 +1,5 @@
-import { LOGO_LIST } from "./constant";
+import { LOGO_MAP } from "./constant";
 import TntLogoIcon from "./LogoIcon";
 
 export const LogoIcon = TntLogoIcon;
-export const logoList = LOGO_LIST;
+export const logoMap = LOGO_MAP;

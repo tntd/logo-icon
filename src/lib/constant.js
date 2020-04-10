@@ -1,81 +1,93 @@
-export const LOGO_LIST = [
-    {
-        name: "auth",
-        // keyword: ["权限", "认证"]
+export const LOGO_MAP = {
+    auth: {
+        list: ["bridge"],
+        keyword: ["认证", "权限", "统一登录"]
     },
-    {
-        name: "box",
-        // keyword: ["权限", "认证"]
+    box: {
+        list: ["storage"],
+        keyword: ["盒子", "资源"]
     },
-    {
-        name: "convert",
-        // keyword: ["权限", "认证"]
+    convert: {
+        list: ["convert"],
+        keyword: ["转换"]
     },
-    {
-        name: "dc",
-        // keyword: ["权限", "认证"]
+    dc: {
+        list: ["dataocean"],
+        keyword: ["大数据"]
     },
-    {
-        name: "es",
-        // keyword: ["权限", "认证"]
+    es: {
+        list: ["es"],
+        keyword: ["es"]
     },
-    {
-        name: "freyr",
-        // keyword: ["权限", "认证"]
+    freyr: {
+        list: ["handle"],
+        keyword: ["天座"]
     },
-    {
-        name: "galaxy",
-        // keyword: ["权限", "认证"]
+    galaxy: {
+        list: ["galaxy"],
+        keyword: ["银河"]
     },
-    {
-        name: "graph-node",
-        // keyword: ["权限", "认证"]
+    graphNode: {
+        list: ["graph-node"],
+        keyword: ["graph-node"]
     },
-    {
-        name: "kafka",
-        // keyword: ["权限", "认证"]
+    kafka: {
+        list: ["kafka"],
+        keyword: ["kafka"]
     },
-    {
-        name: "lines",
-        // keyword: ["权限", "认证"]
+    lines: {
+        list: ["lines", "licenx"],
+        keyword: ["神盾"]
     },
-    {
-        name: "math",
-        // keyword: ["权限", "认证"]
+    math: {
+        list: ["math"],
+        keyword: ["math"]
     },
-    {
-        name: "mysql",
-        // keyword: ["权限", "认证"]
+    mysql: {
+        list: ["mysql"],
+        keyword: ["mysql"]
     },
-    {
-        name: "network",
-        // keyword: ["权限", "认证"]
+    network: {
+        list: ["network", "qiming", "graph"],
+        keyword: ["图谱"]
     },
-    {
-        name: "realtime-cloud",
-        // keyword: ["权限", "认证"]
+    cloud: {
+        list: ["cloud", "realtime"],
+        keyword: ["云", "实时计算"]
     },
-    {
-        name: "realtime",
-        // keyword: ["权限", "认证"]
+    realtime: {
+        list: ["realtime"],
+        keyword: ["实时计算"]
     },
-    {
-        name: "ship",
-        // keyword: ["权限", "认证"]
+    ship: {
+        list: ["ship"],
+        keyword: ["船"]
     },
-    {
-        name: "stream",
-        // keyword: ["权限", "认证"]
+    stream: {
+        list: ["stream"],
+        keyword: ["流计算"]
     },
-    {
-        name: "turing",
-        // keyword: ["权限", "认证"]
+    turing: {
+        list: ["turing"],
+        keyword: ["机器学习", "图灵"]
     },
-    {
-        name: "unite",
-        // keyword: ["权限", "认证"]
+    unite: {
+        list: ["baldur"],
+        keyword: ["统一服务"]
     }
-];
+};
+
+export const getNameByType = (type) => {
+    let logoName = "box";
+    Object.keys(LOGO_MAP).map(txt => {
+        LOGO_MAP[txt]["list"].map(name => {
+            if (name === type) {
+                logoName = txt;
+            }
+        })
+    })
+    return logoName;
+};
 
 export const LOGO_ICON_MAP = {
     auth: require("./img/auth.svg"),
@@ -85,13 +97,13 @@ export const LOGO_ICON_MAP = {
     es: require("./img/es.svg"),
     freyr: require("./img/freyr.svg"),
     galaxy: require("./img/galaxy.svg"),
-    "graph-node": require("./img/graph-node.svg"),
+    graphNode: require("./img/graph-node.svg"),
     kafka: require("./img/kafka.svg"),
     lines: require("./img/lines.svg"),
     math: require("./img/math.svg"),
     mysql: require("./img/mysql.svg"),
     network: require("./img/network.svg"),
-    "realtime-cloud": require("./img/realtime-cloud.svg"),
+    cloud: require("./img/cloud.svg"),
     realtime: require("./img/realtime.svg"),
     ship: require("./img/ship.svg"),
     stream: require("./img/stream.svg"),

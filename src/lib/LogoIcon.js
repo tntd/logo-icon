@@ -1,8 +1,8 @@
 import React from "react";
-import { LOGO_ICON_MAP } from "./constant";
+import { LOGO_ICON_MAP, getNameByType } from "./constant";
 
 const FileIcon = ({ type = "box" }) => {
-  const logoImg = LOGO_ICON_MAP[type] || LOGO_ICON_MAP["box"];
+  const logoImg = LOGO_ICON_MAP[getNameByType(type)];
 
   return (
     <img src={logoImg} />
