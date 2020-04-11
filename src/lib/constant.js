@@ -7,17 +7,29 @@ export const LOGO_MAP = {
         list: ["storage"],
         keyword: ["盒子", "资源"]
     },
+    bubble: {
+        list: ["bi"],
+        keyword: ["气泡图", "bi"]
+    },
     convert: {
         list: ["convert"],
         keyword: ["转换"]
     },
-    dc: {
+    dataocean: {
         list: ["dataocean"],
         keyword: ["大数据"]
+    },
+    dispatch: {
+        list: ["dispatch"],
+        keyword: ["调度"]
     },
     es: {
         list: ["es"],
         keyword: ["es"]
+    },
+    feature: {
+        list: ["feature"],
+        keyword: ["特征", "节点"]
     },
     freyr: {
         list: ["handle"],
@@ -48,7 +60,7 @@ export const LOGO_MAP = {
         keyword: ["mysql"]
     },
     network: {
-        list: ["network", "qiming", "graph"],
+        list: ["network", "qiming", "graph", "orion"],
         keyword: ["图谱"]
     },
     cloud: {
@@ -58,6 +70,10 @@ export const LOGO_MAP = {
     realtime: {
         list: ["realtime"],
         keyword: ["实时计算"]
+    },
+    road: {
+        list: ["road", "smart-highroad"],
+        keyword: ["路", "高速"]
     },
     ship: {
         list: ["ship"],
@@ -92,9 +108,12 @@ export const getNameByType = (type) => {
 export const LOGO_ICON_MAP = {
     auth: require("./img/auth.svg"),
     box: require("./img/box.svg"),
+    bubble: require("./img/bubble.svg"),
     convert: require("./img/convert.svg"),
-    dc: require("./img/dc.svg"),
+    dataocean: require("./img/dc.svg"),
+    dispatch: require("./img/dispatch.svg"),
     es: require("./img/es.svg"),
+    feature: require("./img/feature.svg"),
     freyr: require("./img/freyr.svg"),
     galaxy: require("./img/galaxy.svg"),
     graphNode: require("./img/graph-node.svg"),
@@ -105,9 +124,78 @@ export const LOGO_ICON_MAP = {
     network: require("./img/network.svg"),
     cloud: require("./img/cloud.svg"),
     realtime: require("./img/realtime.svg"),
+    road: require("./img/road.svg"),
     ship: require("./img/ship.svg"),
     stream: require("./img/stream.svg"),
     turing: require("./img/turing.svg"),
     unite: require("./img/unite.svg")
 };
 
+export const SYSTEM_MAP = {
+    bridge: {
+        name: '权限管理',
+        enName: 'Bridge',
+        logo: LOGO_ICON_MAP.auth
+    },
+    orion: {
+        name: '知识图谱',
+        enName: 'Orion',
+        logo: LOGO_ICON_MAP.network
+    },
+    turing: {
+        name: '机器学习',
+        enName: 'Machine Learning',
+        logo: LOGO_ICON_MAP.turing
+    },
+    dataocean: {
+        name: '大数据平台',
+        enName: 'Data Ocean',
+        logo: LOGO_ICON_MAP.dataocean
+    },
+    convert: {
+        name: '数据治理平台',
+        enName: 'convert',
+        logo: LOGO_ICON_MAP.convert
+    },
+    indicator: {
+        name: '离线指标',
+        enName: 'indicator',
+        logo: LOGO_ICON_MAP.graphNode
+    },
+    dispatch: {
+        name: '调度中心',
+        enName: 'dispatch',
+        logo: LOGO_ICON_MAP.dispatch
+    },
+    baldur: {
+        name: '统一API服务',
+        enName: 'baldur',
+        logo: LOGO_ICON_MAP.unite
+    },
+    feature: {
+        name: '特征库平台',
+        enName: 'feature',
+        logo: LOGO_ICON_MAP.feature
+    },
+    model: {
+        icon: 'model',
+        name: '模型平台',
+        enName: 'model',
+        logo: LOGO_ICON_MAP.math
+    },
+    storage: {
+        name: '对象存储',
+        enName: 'storage',
+        logo: LOGO_ICON_MAP.box
+    },
+    bi: {
+        name: 'BI系统',
+        enName: 'bi',
+        logo: LOGO_ICON_MAP.bubble
+    },
+    'smart-highroad': {
+        name: '智慧高速分析平台',
+        enName: 'smart-highroad',
+        logo: LOGO_ICON_MAP.road
+    }
+};

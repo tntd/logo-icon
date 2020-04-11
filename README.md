@@ -8,5 +8,5 @@ $ npm install @tntd/logo-icon --save
 
 ## 使用
 ```
-<LogoIcon type="dc"/>
+<LogoIcon type="road"/>
 ```
