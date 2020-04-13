@@ -135,67 +135,80 @@ export const SYSTEM_MAP = {
     bridge: {
         name: '权限管理',
         enName: 'Bridge',
-        logo: LOGO_ICON_MAP.auth
-    },
-    orion: {
-        name: '知识图谱',
-        enName: 'Orion',
-        logo: LOGO_ICON_MAP.network
-    },
-    turing: {
-        name: '机器学习',
-        enName: 'Machine Learning',
-        logo: LOGO_ICON_MAP.turing
-    },
-    dataocean: {
-        name: '大数据平台',
-        enName: 'Data Ocean',
-        logo: LOGO_ICON_MAP.dataocean
-    },
-    convert: {
-        name: '数据治理平台',
-        enName: 'convert',
-        logo: LOGO_ICON_MAP.convert
-    },
-    indicator: {
-        name: '离线指标',
-        enName: 'indicator',
-        logo: LOGO_ICON_MAP.graphNode
-    },
-    dispatch: {
-        name: '调度中心',
-        enName: 'dispatch',
-        logo: LOGO_ICON_MAP.dispatch
+        logo: LOGO_ICON_MAP.auth,
+        sort: 1
     },
     baldur: {
         name: '统一API服务',
         enName: 'baldur',
-        logo: LOGO_ICON_MAP.unite
-    },
-    feature: {
-        name: '特征库平台',
-        enName: 'feature',
-        logo: LOGO_ICON_MAP.feature
+        logo: LOGO_ICON_MAP.unite,
+        sort: 2
     },
     model: {
         icon: 'model',
         name: '模型平台',
         enName: 'model',
-        logo: LOGO_ICON_MAP.math
+        logo: LOGO_ICON_MAP.math,
+        sort: 8
+    },
+    orion: {
+        name: '知识图谱',
+        enName: 'Orion',
+        logo: LOGO_ICON_MAP.network,
+        sort: 10
+    },
+    turing: {
+        name: '机器学习',
+        enName: 'Machine Learning',
+        logo: LOGO_ICON_MAP.turing,
+        sort: 10
+    },
+    convert: {
+        name: '数据治理平台',
+        enName: 'convert',
+        logo: LOGO_ICON_MAP.convert,
+        sort: 9
+    },
+    dataocean: {
+        name: '大数据平台',
+        enName: 'Data Ocean',
+        logo: LOGO_ICON_MAP.dataocean,
+        sort: 10
+    },
+    indicator: {
+        name: '离线指标',
+        enName: 'indicator',
+        logo: LOGO_ICON_MAP.graphNode,
+        sort: 10
+    },
+    dispatch: {
+        name: '调度中心',
+        enName: 'dispatch',
+        logo: LOGO_ICON_MAP.dispatch,
+        sort: 10
+    },
+    feature: {
+        name: '特征库平台',
+        enName: 'feature',
+        logo: LOGO_ICON_MAP.feature,
+        sort: 10
     },
     storage: {
         name: '对象存储',
         enName: 'storage',
-        logo: LOGO_ICON_MAP.box
+        logo: LOGO_ICON_MAP.box,
+        sort: 12
     },
     bi: {
         name: 'BI系统',
         enName: 'bi',
-        logo: LOGO_ICON_MAP.bubble
+        logo: LOGO_ICON_MAP.bubble,
+        sort: 13
     },
     'smart-highroad': {
         name: '智慧高速分析平台',
         enName: 'smart-highroad',
-        logo: LOGO_ICON_MAP.road
+        logo: LOGO_ICON_MAP.road,
+        sort: 14
     }
 };
