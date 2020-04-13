@@ -55,6 +55,10 @@ export const LOGO_MAP = {
         list: ["math"],
         keyword: ["math"]
     },
+    model: {
+        list: ["modelex"],
+        keyword: ["模型库"]
+    },
     mysql: {
         list: ["mysql"],
         keyword: ["mysql"]
@@ -120,6 +124,7 @@ export const LOGO_ICON_MAP = {
     kafka: require("./img/kafka.svg"),
     lines: require("./img/lines.svg"),
     math: require("./img/math.svg"),
+    model: require("./img/model.svg"),
     mysql: require("./img/mysql.svg"),
     network: require("./img/network.svg"),
     cloud: require("./img/cloud.svg"),
@@ -145,10 +150,15 @@ export const SYSTEM_MAP = {
         sort: 2
     },
     model: {
-        icon: 'model',
         name: '模型平台',
         enName: 'model',
         logo: LOGO_ICON_MAP.math,
+        sort: 8
+    },
+    modelex: {
+        name: '模型资产',
+        enName: 'model',
+        logo: LOGO_ICON_MAP.model,
         sort: 8
     },
     orion: {

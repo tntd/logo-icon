@@ -1,6 +1,6 @@
 {
   "name": "@tntd/logo-icon",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "logo icons",
   "main": "dist/index.js",
   "module": "dist/index.js",
