@@ -40,8 +40,8 @@ export const LOGO_MAP = {
         keyword: ["银河"]
     },
     graphNode: {
-        list: ["graph-node"],
-        keyword: ["graph-node"]
+        list: ["graph-node", 'collect'],
+        keyword: ["数据交换", "graph-node"]
     },
     kafka: {
         list: ["kafka"],
@@ -94,6 +94,10 @@ export const LOGO_MAP = {
     unite: {
         list: ["baldur"],
         keyword: ["统一服务"]
+    },
+    datax: {
+        list: ["datax"],
+        keyword: ["数据交换"]
     }
 };
 
@@ -133,7 +137,8 @@ export const LOGO_ICON_MAP = {
     ship: require("./img/ship.svg"),
     stream: require("./img/stream.svg"),
     turing: require("./img/turing.svg"),
-    unite: require("./img/unite.svg")
+    unite: require("./img/unite.svg"),
+    datax: require("./img/datax.svg"),
 };
 
 export const SYSTEM_MAP = {

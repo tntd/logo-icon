@@ -1,6 +1,6 @@
 {
   "name": "@tntd/logo-icon",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "logo icons",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -19,15 +19,12 @@
   "files": [
     "dist"
   ],
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
-    "react-test-renderer": "^16.3.2"
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "babel-cli": "^6.26.0",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.3.2"
   }
 }
