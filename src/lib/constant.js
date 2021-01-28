@@ -226,6 +226,12 @@ export const SYSTEM_MAP = {
         logo: LOGO_ICON_MAP.road,
         sort: 14
     },
+    collect: {
+        name: '数据资产',
+        enName: 'datax',
+        logo: LOGO_ICON_MAP.graphNode,
+        sort: 15
+    },
     datax: {
         name: '数据交换',
         enName: 'datax',
