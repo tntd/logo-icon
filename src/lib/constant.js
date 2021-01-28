@@ -225,5 +225,11 @@ export const SYSTEM_MAP = {
         enName: 'smart-highroad',
         logo: LOGO_ICON_MAP.road,
         sort: 14
+    },
+    datax: {
+        name: '数据交换',
+        enName: 'datax',
+        logo: LOGO_ICON_MAP.datax,
+        sort: 15
     }
 };
