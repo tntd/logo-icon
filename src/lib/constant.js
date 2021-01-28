@@ -227,13 +227,13 @@ export const SYSTEM_MAP = {
         sort: 14
     },
     collect: {
-        name: '数据资产',
+        name: '数据交换',
         enName: 'datax',
         logo: LOGO_ICON_MAP.graphNode,
         sort: 15
     },
     datax: {
-        name: '数据交换',
+        name: '数据资产',
         enName: 'datax',
         logo: LOGO_ICON_MAP.datax,
         sort: 15
