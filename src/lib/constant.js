@@ -16,7 +16,7 @@ export const LOGO_MAP = {
         keyword: ["转换"]
     },
     dataocean: {
-        list: ["dataocean"],
+        list: ["dataocean","oasis"],
         keyword: ["大数据"]
     },
     dispatch: {
@@ -96,7 +96,7 @@ export const LOGO_MAP = {
         keyword: ["统一服务"]
     },
     datax: {
-        list: ["datax"],
+        list: ["datax","dataa"],
         keyword: ["数据交换"]
     }
 };
