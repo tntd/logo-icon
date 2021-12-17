@@ -16,7 +16,7 @@ export const LOGO_MAP = {
         keyword: ["转换"]
     },
     dataocean: {
-        list: ["dataocean"],
+        list: ["dataocean", "oasis"],
         keyword: ["大数据"]
     },
     dispatch: {
@@ -96,9 +96,9 @@ export const LOGO_MAP = {
         keyword: ["统一服务"]
     },
     datax: {
-        list: ["datax"],
+        list: ["datax", "dataa"],
         keyword: ["数据交换"]
-    }
+    },
 };
 
 export const getNameByType = (type) => {
@@ -184,7 +184,7 @@ export const SYSTEM_MAP = {
         logo: LOGO_ICON_MAP.convert,
         sort: 9
     },
-    dataocean: {
+    oasis: {
         name: '大数据平台',
         enName: 'Data Ocean',
         logo: LOGO_ICON_MAP.dataocean,
@@ -232,10 +232,16 @@ export const SYSTEM_MAP = {
         logo: LOGO_ICON_MAP.graphNode,
         sort: 15
     },
-    datax: {
+    dataa: {
         name: '数据资产',
         enName: 'datax',
         logo: LOGO_ICON_MAP.datax,
+        sort: 15
+    },
+    protect: {
+        name: '数据保护伞',
+        enName: 'data protect',
+        logo: LOGO_ICON_MAP.galaxy,
         sort: 15
     }
 };
