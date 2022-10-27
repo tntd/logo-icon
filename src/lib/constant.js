@@ -1,3 +1,29 @@
+import auth from './img/auth.svg'
+import box from './img/box.svg'
+import bubble from './img/bubble.svg'
+import convert from './img/convert.svg'
+import dataocean from './img/dc.svg'
+import dispatch from './img/dispatch.svg'
+import es from './img/es.svg'
+import feature from './img/feature.svg'
+import freyr from './img/freyr.svg'
+import galaxy from './img/galaxy.svg'
+import graphNode from './img/graph-node.svg'
+import kafka from './img/kafka.svg'
+import lines from './img/lines.svg'
+import math from './img/math.svg'
+import model from './img/model.svg'
+import mysql from './img/mysql.svg'
+import network from './img/network.svg'
+import cloud from './img/cloud.svg'
+import realtime from './img/realtime.svg'
+import road from './img/road.svg'
+import ship from './img/ship.svg'
+import stream from './img/stream.svg'
+import turing from './img/turing.svg'
+import unite from './img/unite.svg'
+import datax from './img/datax.svg'
+
 export const LOGO_MAP = {
     auth: {
         list: ["bridge"],
@@ -114,31 +140,31 @@ export const getNameByType = (type) => {
 };
 
 export const LOGO_ICON_MAP = {
-    auth: require("./img/auth.svg"),
-    box: require("./img/box.svg"),
-    bubble: require("./img/bubble.svg"),
-    convert: require("./img/convert.svg"),
-    dataocean: require("./img/dc.svg"),
-    dispatch: require("./img/dispatch.svg"),
-    es: require("./img/es.svg"),
-    feature: require("./img/feature.svg"),
-    freyr: require("./img/freyr.svg"),
-    galaxy: require("./img/galaxy.svg"),
-    graphNode: require("./img/graph-node.svg"),
-    kafka: require("./img/kafka.svg"),
-    lines: require("./img/lines.svg"),
-    math: require("./img/math.svg"),
-    model: require("./img/model.svg"),
-    mysql: require("./img/mysql.svg"),
-    network: require("./img/network.svg"),
-    cloud: require("./img/cloud.svg"),
-    realtime: require("./img/realtime.svg"),
-    road: require("./img/road.svg"),
-    ship: require("./img/ship.svg"),
-    stream: require("./img/stream.svg"),
-    turing: require("./img/turing.svg"),
-    unite: require("./img/unite.svg"),
-    datax: require("./img/datax.svg"),
+    auth,
+    box,
+    bubble,
+    convert,
+    dataocean,
+    dispatch,
+    es,
+    feature,
+    freyr,
+    galaxy,
+    graphNode,
+    kafka,
+    lines,
+    math,
+    model,
+    mysql,
+    network,
+    cloud,
+    realtime,
+    road,
+    ship,
+    stream,
+    turing,
+    unite,
+    datax,
 };
 
 export const SYSTEM_MAP = {
